@@ -1,0 +1,64 @@
+.color-1 {
+    color: darkblue;
+}
+
+.color-2 {
+    color: #00ff00;
+}
+/* RGB RedGreenBlue = 00 - ff , 00ff00*/
+
+.color-3 {
+    color: #f00;
+}
+
+/* 0-255 */
+.color-4 {
+    color: rgb(0,255,255);
+    /* opacity: 0.5; */
+}
+
+.color-5 {
+    color: rgba(0, 150, 0, 0.5);
+}
+
+
+/* DISPLAY  */
+.display {
+    border:10px solid black;
+    list-style: none;
+    color: black;
+    width: 600px;
+    margin: auto;
+    background-color: seagreen;
+}
+
+/* inline block inline-block */
+
+.inline li{
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+
+/*                                                                              СТИЛИЗУЕМ ФОРМУ ЗАПОЛНЕНИЯ */
+
+#sq label {
+display: block;
+font-size: 25px;
+}
+
+#sq h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ #sq input {
+    width: 300px;
+    height: 30px;
+}
+
+#sq textarea {
+    width: 300px;
+    height: 80px;
+}
+

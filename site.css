@@ -1,0 +1,263 @@
+
+/* tag name */
+/* основное тело */
+body {
+    background-image: url(https://avatars.mds.yandex.net/i?id=d936bea64bb48a3fdf1fe449e7bdf8ce_l-4537101-images-thumbs&n=13);
+    background-size: contain;
+    text-align: center;
+}
+
+body h1 {
+    font-size: 50px;
+}
+
+/*                                                                              Class */
+.card {
+    padding: 10px;
+    color: yellowgreen;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.card h2 {
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+/*                                                                              Верхний Джона */
+.html {
+    background: indigo;
+    border: 10px solid black;
+    font-family: fantasy;
+    color: rgb(239, 109, 65);
+    border-radius: 30px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+} 
+
+/*                                                                              Нижний Джона */
+.css {
+    background: indigo;
+    border: 10px solid black;
+    font-family: Jazz LET;
+    color: rgb(16, 133, 202);
+    border-radius: 30px;
+    width: 800px;
+    margin: auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+/*                                                                              Работа + увлечения */
+.work , .push {
+    border: 10px solid black;
+    color: black;
+    border-radius: 30px;
+    margin: auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+.push {
+    text-align: left;
+    background-color: blanchedalmond;
+    width: 350px;
+    margin: auto;
+}
+
+.push h1 {
+    margin-left: 15px;
+}
+
+.work {
+    background-color: aquamarine;
+    width: 1240px;
+}
+
+/*                                                                              Id , Верхушка сайта*/
+#header {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    border: 10px solid black;
+    border-radius: 30px;
+    text-align: right;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+    display: flex;
+}
+
+/*                                                                              селектор Id с заполняемой анкетой */
+#sq {
+    background-color: rgb(0, 255, 0);
+    border: 10px solid black;
+    font-family: Georgia, serif;
+    border-radius: 50px;
+    width: 400px;
+    height: 410px;
+    margin: auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+/*                                                                              обращение к селектору с информацией и ссылками */
+.contain {
+    border: 10px solid rgb(255, 0, 162);
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 1000px;
+    margin: auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+/*                                                                              a - обращение к ссылкам на сайте */
+
+a {
+    color: chartreuse;
+    text-decoration: underline;
+    transition: all .5s;
+}
+
+/*                                                                              hover - когда мышка неведена на объект */
+a:hover {
+    color: #37f5f5;
+    font-size: 35px;
+}
+
+/*                                                                              обращение к классу с цветами */
+.color {
+    width: 700px;
+    margin: auto;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+/*                                                                              обращение к таблице внутри класса */
+.work table {
+    margin: auto;
+    border-radius: 20px;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    background-color: #37f5f5;
+    border-style: solid;
+}
+
+/*                                                                              обращение к верхней строчке таблицы */
+.work table thead {
+    background-color: blueviolet;
+}
+
+/*                                                                              аватар */
+.avatar {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgb(0, 0, 0);
+}
+
+/*                                                                              обращение к кнопке */
+.btn {
+   background-color: black;
+   color:aqua;
+   padding: 7px 40px 7px 40px;
+   border-radius: 20px;
+   border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: orange;
+}
+ 
+
+
+
+/*                                                                              ПОШЛО ДВИЖЕНИЕ */
+.avatar:hover {
+    transition: all 1s;
+    width : 320px;
+}
+
+#header:hover {
+    transition: all 1s;
+    border-color: yellow;
+    color: yellow;
+    background-color: black;
+}
+
+.push:hover {
+    transition: all 1s;
+    width : 420px;
+    background-color: #05fbfb;
+    font-size: 40px;
+}
+
+.html:hover {
+    transition: all 1s;
+    width : 820px;
+    background-color: #05fbfb;
+    color: blue;
+    border-color: yellow;
+}
+
+.css:hover {
+    transition: all 1s;
+    width : 820px;
+    background-color: #05fbfb;
+    color: blue;
+    border-color: yellow;
+}
+
+.work:hover {
+    transition: all 1s;
+    width: 1300px;
+    background-color:rgb(82, 239, 21);
+    font-size: 40px;
+}
+
+.color:hover {
+    transition: all 1s;
+    width: 800px;
+    background-color:rgb(82, 239, 21);
+    border-color: black;
+}
+
+#sq:hover {
+    transition: all 2s;
+    background-color: aqua;
+    background-image: url(https://static.tildacdn.com/tild6563-3661-4065-b031-373331333564/393635336630-IKC-rou.png);
+    background-size: contain;
+}
+
+.contain:hover {
+    transition: all 1s;
+    background-color: black;
+    color: white;
+    border-color: yellowgreen;
+}
+
+/*                                                                              НАСТРОЙКА ХЕДЕРА */
+ #header {
+    display: inline-block;
+ }
+
+ .avatar {
+    float: left;
+    display: block;
+}
+
+ .me {
+    text-align: center;
+    display: block;
+    padding-left: 200px;
+    font-size: 60px;
+ }
+ 
+ .it-специалист {
+    text-align: center;
+    display: block;
+  padding-left: 400px;
+  padding-top: 100px;
+ }
+
+ body hr {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+ }
